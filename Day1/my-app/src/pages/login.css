@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.loginForm{
+    width: 80%;
+    height: 60vh;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.login1{
+    width: 80%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.login2{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login2 form{
+    width: 50%;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 1px 1px 3px rgba(128, 128, 128, 0.874);
+
+}
+.inputfield{
+    width: 90%;
+        height: 35px;
+        border-radius: 4px;
+        border: none;
+        box-shadow: 1px 1px 3px rgba(128, 128, 128, 0.874);
+        padding-left: 10px;
+}
+.loginBtn{
+    width: 50%;
+    height: 35px;
+    background-color: aquamarine;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    margin-left: 10px;
+    font-weight: 700;
+    box-shadow: 1px 1px 3px rgba(128, 128, 128, 0.874);
+}
+.loginBtn:hover{
+    background-color: white;
+}
+
+@media screen and (max-width:998px) {
+    .login2{
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .login2 form{
+        width: 90%;
+        height: 280px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        box-shadow: 1px 1px 3px rgba(128, 128, 128, 0.874);
+    
+    }
+    .inputfield{
+        width: 90%;
+            height: 35px;
+            border-radius: 4px;
+            border: none;
+            box-shadow: 1px 1px 3px rgba(128, 128, 128, 0.874);
+            padding-left: 10px;
+    }
+    .loginBtn{
+        width: 50%;
+        height: 35px;
+        background-color: aquamarine;
+        color: black;
+        border: none;
+        border-radius: 4px;
+        margin-left: 10px;
+        font-weight: 700;
+        box-shadow: 1px 1px 3px rgba(128, 128, 128, 0.874);
+    }
+    .loginBtn:hover{
+        background-color: white;
+    }
+}
