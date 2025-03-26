@@ -7,6 +7,8 @@ import DbConnect from './DbConnect.js'
 
 import User from './models/models.js';
 
+import cors from 'cors';
+
 
 dotenv.config();
 
@@ -15,6 +17,7 @@ const app = express();
 
 // parsing json body
 app.use(express.json());
+app.use(cors());
 
 const PORT = process.env.PORT || 5000;
 DbConnect();
