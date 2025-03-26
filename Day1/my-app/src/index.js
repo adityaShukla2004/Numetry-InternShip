@@ -8,6 +8,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Login from './pages/Login';
+import SignUp from './pages/SignUp';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -22,6 +23,7 @@ root.render(
         <Route path='/login' Component={Login}/>
         <Route path='/about' Component={About} />
         <Route path='/contact' Component={Contact} />
+        <Route path='/signup' Component={SignUp}/>
       </Routes>
     
 
